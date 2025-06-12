@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FILM ROLL - The next dimension in storytelling.">
+    <meta name="author" content="FILM ROLL">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>FILM ROLL - Channel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff6f61, #ffbe61);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo {
+            width: 120px;
+            border-radius: 50%;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        .hero {
+            padding: 50px 20px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .statistics {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .stat {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1;
+            margin: 10px;
+        }
+
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .video-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .video-item:hover {
+            transform: scale(1.05);
+        }
+
+        .video-item iframe {
+            width: 100%;
+            height: 150px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .contact {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .statistics {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <img src="your-logo-url-here" alt="FILM ROLL Logo" class="logo">
+        <h1>FILM ROLL</h1>
+        <p>The next dimension in storytelling</p>
+    </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#videos">Videos</a>
+        <a href="#subscribe">Subscribe</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="statistics">
+    <div class="stat">
+        <h2>Subscribers</h2>
+        <p>1,230,000</p>
+    </div>
+    <div class="stat">
+        <h2>Videos</h2>
+        <p>1,117</p>
+    </div>
+    <div class="stat">
+        <h2>Total Views</h2>
+        <p>256,055,677</p>
+    </div>
+</section>
+
+<section id="videos" class="video-gallery">
+    <h2>Latest Videos</h2>
+    <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/your-video-id-1" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/your-video-id-2" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/your-video-id-3" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/your-video-id-4" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="about" class="contact">
+    <h2>About FILM ROLL</h2>
+    <p>கதை சொல்வதில் அடுத்த பரிமாணம்🔥</p>
+    <p>வெறும் கதை மட்டும் சொல்லாமல் உங்கள அந்த கதைக்குள்ளையே கொண்டு போகப் போகிறேன்</p>
+</section>
+
+<section id="subscribe" class="contact">
+    <h2>Subscribe to our Channel</h2>
+    <a href="https://www.youtube.com/channel/your-channel-id" class="subscribe-button">Subscribe</a>
+</section>
+
+<footer>
+    <p>&copy; 2023 FILM ROLL. All rights reserved.</p>
+    <p>Follow us on social media:</p>
+    <a href="https://facebook.com" style="color: #ffeb3b;">Facebook</a> | 
+    <a href="https://twitter.com" style="color: #ffeb3b;">Twitter</a> | 
+    <a href="https://instagram.com" style="color: #ffeb3b;">Instagram</a>
+</footer>
+
+<script>
+    // Add any JavaScript functionality here if required.
+</script>
+
+</body>
+</html>
